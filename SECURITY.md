@@ -6,7 +6,7 @@ Unless explicitly stated otherwise, we only support the latest released version
 (and the current development version) of firejail, which should be the one in
 the following page:
 
-* <https://github.com/netblue30/firejail/releases/latest>
+* <https://github.com/Unity-Billal-mesloub/firejail/releases/latest>
 
 Versions older than the latest usually have outdated profiles and may contain
 bugs and security vulnerabilities that were already fixed in a later version.
