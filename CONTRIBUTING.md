@@ -15,7 +15,7 @@ new profile or feature, or to report a suspected bug or problem.
 If you want to request a program profile that we don't already have, please add
 a comment in our dedicated issue:
 
-- [Profile requests](https://github.com/netblue30/firejail/issues/1139)
+- [Profile requests](https://github.com/Unity-Billal-mesloub/firejail/issues)
 
 When submitting a bug report, please provide the following information so that
 we can handle the report more easily:
@@ -69,4 +69,4 @@ If you add a new command, here's the checklist:
 ## Editing the wiki
 
 You are highly encouraged to add your own tips and tricks to the
-[wiki](https://github.com/netblue30/firejail/wiki).
+[wiki](https://github.com/Unity-Billal-mesloub/firejail/wiki).
