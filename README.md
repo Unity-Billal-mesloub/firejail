@@ -1,13 +1,13 @@
 # Firejail
 
-[![Build (GitLab)](https://gitlab.com/Firejail/firejail_ci/badges/master/pipeline.svg)](https://gitlab.com/Firejail/firejail_ci/pipelines)
-[![Build (GitHub)](https://github.com/netblue30/firejail/workflows/Build/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ABuild)
-[![Build-extra](https://github.com/netblue30/firejail/workflows/Build-extra/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ABuild-extra)
-[![Test](https://github.com/netblue30/firejail/workflows/Test/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ATest)
-[![Check-C](https://github.com/netblue30/firejail/workflows/Check-C/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ACheck-C)
-[![Check-Profiles](https://github.com/netblue30/firejail/workflows/Check-Profiles/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ACheck-Profiles)
-[![Check-Python](https://github.com/netblue30/firejail/workflows/Check-Python/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ACheck-Python)
-[![Codespell](https://github.com/netblue30/firejail/workflows/Codespell/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ACodespell)
+[![Build (GitLab)](https://gitlab.com/Unity-Billal-mesloub/firejail_ci/badges/master/pipeline.svg)](https://gitlab.com/Unity-Billal-mesloub/firejail_ci/pipelines)
+[![Build (GitHub)](https://github.com/Unity-Billal-mesloub/firejail/workflows/Build/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ABuild)
+[![Build-extra](https://github.com/Unity-Billal-mesloub/firejail/workflows/Build-extra/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ABuild-extra)
+[![Test](https://github.com/Unity-Billal-mesloub/firejail/workflows/Test/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ATest)
+[![Check-C](https://github.com/Unity-Billal-mesloub/firejail/workflows/Check-C/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ACheck-C)
+[![Check-Profiles](https://github.com/Unity-Billal-mesloub/firejail/workflows/Check-Profiles/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ACheck-Profiles)
+[![Check-Python](https://github.com/Unity-Billal-mesloub/firejail/workflows/Check-Python/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ACheck-Python)
+[![Codespell](https://github.com/Unity-Billal-mesloub/firejail/workflows/Codespell/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ACodespell)
 [![Packaging status (Repology)](https://repology.org/badge/tiny-repos/firejail.svg)](https://repology.org/project/firejail/versions)
 
 Firejail is a lightweight security tool intended to protect a Linux system by
@@ -71,10 +71,10 @@ alt="Tor Browser Security" width="240" height="142" border="10" />
 * Download and Installation: <https://firejail.wordpress.com/download-2/>
 * Features: <https://firejail.wordpress.com/features-3/>
 * Documentation: <https://firejail.wordpress.com/documentation-2/>
-* FAQ: <https://github.com/netblue30/firejail/wiki/Frequently-Asked-Questions>
-* Wiki: <https://github.com/netblue30/firejail/wiki>
-* GitHub Actions: <https://github.com/netblue30/firejail/actions>
-* GitLab CI: <https://gitlab.com/Firejail/firejail_ci/pipelines>
+* FAQ: <https://github.com/Unity-Billal-mesloub/firejail/wiki/Frequently-Asked-Questions>
+* Wiki: <https://github.com/Unity-Billal-mesloub/firejail/wiki>
+* GitHub Actions: <https://github.com/Unity-Billal-mesloub/firejail/actions>
+* GitLab CI: <https://gitlab.com/Unity-Billal-mesloub/firejail_ci/pipelines>
 * Debian CI: <https://salsa.debian.org/reiner/firejail>
 * Debian Package Tracker: <https://tracker.debian.org/pkg/firejail>
 * Ubuntu PPA: <https://launchpad.net/~deki/+archive/ubuntu/firejail>
@@ -134,9 +134,9 @@ profile fixes.
 See the following discussions for details:
 
 * [Should I keep using the version of firejail available in my distro
-  repos?](https://github.com/netblue30/firejail/discussions/4666)
+  repos?](https://github.com/Unity-Billal-mesloub/firejail/discussions)
 * [How to install the latest version on Ubuntu and
-  derivatives](https://github.com/netblue30/firejail/discussions/4663)
+  derivatives](https://github.com/Unity-Billal-mesloub/firejail/discussions)
 
 ### Other
 
@@ -158,7 +158,7 @@ generally a good idea to install it from the distribution.
 The version can be checked with `firejail --version` after installing.
 
 You can also install one of the [released
-packages](https://github.com/netblue30/firejail/releases).
+packages](https://github.com/Unity-Billal-mesloub/firejail/releases).
 
 ## Building
 
@@ -198,7 +198,7 @@ Note: Any ./configure flags should be passed to [`mkdeb.sh`](mkdeb.sh)
 sudo apt-get update -qy
 sudo apt-get install -qy \
   git build-essential fakeroot lintian libapparmor-dev pkg-config gawk
-git clone 'https://github.com/netblue30/firejail.git' &&
+git clone 'https://github.com/Unity-Billal-mesloub/firejail.git' &&
 cd firejail &&
 ./configure &&
 make dist &&
@@ -217,7 +217,7 @@ Note: Any ./configure flags should be passed to [`mkrpm.sh`](platform/rpm/mkrpm.
 ```sh
 sudo dnf update -y
 sudo dnf install -y rpm-build gcc make
-git clone 'https://github.com/netblue30/firejail.git' &&
+git clone 'https://github.com/Unity-Billal-mesloub/firejail.git' &&
 cd firejail &&
 ./configure &&
 make dist &&
@@ -231,7 +231,7 @@ make installcheck
 Generic build/install instructions:
 
 ```sh
-git clone 'https://github.com/netblue30/firejail.git' &&
+git clone 'https://github.com/Unity-Billal-mesloub/firejail.git' &&
 cd firejail &&
 ./configure &&
 make -j "$(nproc)" &&
@@ -254,14 +254,14 @@ derivatives), install libselinux1-dev (libselinux-devel on Fedora) and use the
 `--enable-selinux` ./configure option.
 
 Detailed information on using firejail from git is available on the
-[wiki](https://github.com/netblue30/firejail/wiki/Using-firejail-from-git).
+[wiki](https://github.com/Unity-Billal-mesloub/firejail/wiki/Using-firejail-from-git).
 
 ## Running the sandbox
 
 Note: Make sure to use the full path to the program (for example, `firejail
 /usr/bin/firefox` instead of `firejail firefox`) to avoid potential
 firejail-in-firejail issues (see
-[#2877](https://github.com/netblue30/firejail/issues/2877)).
+[#2877](https://github.com/Unity-Billal-mesloub/firejail/issues)).
 
 To start the sandbox, prefix your command with `firejail`:
 
@@ -321,12 +321,12 @@ We also keep a list of profile fixes for previous released versions in
 If you keep additional Firejail security profiles in a public repository,
 please give us a link:
 
-* <https://github.com/chiraag-nataraj/firejail-profiles>
-* <https://github.com/triceratops1/fe>
+* <https://github.com/Unity-Billal-mesloub/firejail-profiles>
+* <https://github.com/Unity-Billal-mesloub/fe>
 
 Use this issue to request new profiles:
 
-* [Profile requests](https://github.com/netblue30/firejail/issues/1139)
+* [Profile requests](https://github.com/Unity-Billal-mesloub/firejail/issues/1139)
 
 You can also use this tool to get a list of syscalls needed by a program:
 
@@ -362,13 +362,13 @@ As of gdk-pixbuf2 2.44.1, the calls to glycin loaders are wrapped in
 bubblewrap.
 ```
 
-For details, see [#6906](https://github.com/netblue30/firejail/issues/6906).
+For details, see [#6906](https://github.com/Unity-Billal-mesloub/firejail/issues).
 
 ## Current development version: 0.9.79
 
 ### --profile=filename|appanme rework
 
-Issue https://github.com/netblue30/firejail/issues/6896: requiring a full path or a relative
+Issue https://github.com/Unity-Billal-mesloub/firejail/issues: requiring a full path or a relative
 path for the filename.
 
 ```text
