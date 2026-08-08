@@ -1,13 +1,13 @@
 # Firejail
 
-[![Build (GitLab)](https://gitlab.com/Firejail/firejail_ci/badges/master/pipeline.svg)](https://gitlab.com/Firejail/firejail_ci/pipelines)
-[![Build (GitHub)](https://github.com/netblue30/firejail/workflows/Build/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ABuild)
-[![Build-extra](https://github.com/netblue30/firejail/workflows/Build-extra/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ABuild-extra)
-[![Test](https://github.com/netblue30/firejail/workflows/Test/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ATest)
-[![Check-C](https://github.com/netblue30/firejail/workflows/Check-C/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ACheck-C)
-[![Check-Profiles](https://github.com/netblue30/firejail/workflows/Check-Profiles/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ACheck-Profiles)
-[![Check-Python](https://github.com/netblue30/firejail/workflows/Check-Python/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ACheck-Python)
-[![Codespell](https://github.com/netblue30/firejail/workflows/Codespell/badge.svg)](https://github.com/netblue30/firejail/actions?query=workflow%3ACodespell)
+[![Build (GitLab)](https://gitlab.com/Unity-Billal-mesloub/firejail_ci/badges/master/pipeline.svg)](https://gitlab.com/Unity-Billal-mesloub/firejail_ci/pipelines)
+[![Build (GitHub)](https://github.com/Unity-Billal-mesloub/firejail/workflows/Build/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ABuild)
+[![Build-extra](https://github.com/Unity-Billal-mesloub/firejail/workflows/Build-extra/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ABuild-extra)
+[![Test](https://github.com/Unity-Billal-mesloub/firejail/workflows/Test/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ATest)
+[![Check-C](https://github.com/Unity-Billal-mesloub/firejail/workflows/Check-C/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ACheck-C)
+[![Check-Profiles](https://github.com/Unity-Billal-mesloub/firejail/workflows/Check-Profiles/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ACheck-Profiles)
+[![Check-Python](https://github.com/Unity-Billal-mesloub/firejail/workflows/Check-Python/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ACheck-Python)
+[![Codespell](https://github.com/Unity-Billal-mesloub/firejail/workflows/Codespell/badge.svg)](https://github.com/Unity-Billal-mesloub/firejail/actions?query=workflow%3ACodespell)
 [![Packaging status (Repology)](https://repology.org/badge/tiny-repos/firejail.svg)](https://repology.org/project/firejail/versions)
 
 Firejail is a lightweight security tool intended to protect a Linux system by
@@ -71,10 +71,10 @@ alt="Tor Browser Security" width="240" height="142" border="10" />
 * Download and Installation: <https://firejail.wordpress.com/download-2/>
 * Features: <https://firejail.wordpress.com/features-3/>
 * Documentation: <https://firejail.wordpress.com/documentation-2/>
-* FAQ: <https://github.com/netblue30/firejail/wiki/Frequently-Asked-Questions>
-* Wiki: <https://github.com/netblue30/firejail/wiki>
-* GitHub Actions: <https://github.com/netblue30/firejail/actions>
-* GitLab CI: <https://gitlab.com/Firejail/firejail_ci/pipelines>
+* FAQ: <https://github.com/Unity-Billal-mesloub/firejail/wiki/Frequently-Asked-Questions>
+* Wiki: <https://github.com/Unity-Billal-mesloub/firejail/wiki>
+* GitHub Actions: <https://github.com/Unity-Billal-mesloub/firejail/actions>
+* GitLab CI: <https://gitlab.com/Unity-Billal-mesloub/firejail_ci/pipelines>
 * Debian CI: <https://salsa.debian.org/reiner/firejail>
 * Debian Package Tracker: <https://tracker.debian.org/pkg/firejail>
 * Ubuntu PPA: <https://launchpad.net/~deki/+archive/ubuntu/firejail>
@@ -91,34 +91,10 @@ For the supported versions, see [SECURITY.md](SECURITY.md).
 
 ### Debian
 
-Note: The versions from Debian stable and backports are likely to be outdated,
-so currently we recommend either downloading and installing the .deb package
-from the latest release:
-
-* <https://github.com/netblue30/firejail/releases/latest>
-
-Or [building from source](#building).
-
-<details>
-<summary>Old instructions</summary>
-
 Debian stable (bullseye): We recommend to use the
 [backports](https://packages.debian.org/bullseye-backports/firejail) package.
 
-</details>
-
 ### Ubuntu
-
-Note: The versions from the distribution and PPA are likely to be outdated, so
-currently we recommend either downloading and installing the .deb package from
-the latest release:
-
-* <https://github.com/netblue30/firejail/releases/latest>
-
-Or [building from source](#building).
-
-<details>
-<summary>Old instructions</summary>
 
 Note: The PPA recommendation is mainly for firejail itself; it should be fine
 to install firetools and firejail-related tools directly from the distribution
@@ -158,11 +134,9 @@ profile fixes.
 See the following discussions for details:
 
 * [Should I keep using the version of firejail available in my distro
-  repos?](https://github.com/netblue30/firejail/discussions/4666)
+  repos?](https://github.com/Unity-Billal-mesloub/firejail/discussions)
 * [How to install the latest version on Ubuntu and
-  derivatives](https://github.com/netblue30/firejail/discussions/4663)
-
-</details>
+  derivatives](https://github.com/Unity-Billal-mesloub/firejail/discussions)
 
 ### Other
 
@@ -184,7 +158,7 @@ generally a good idea to install it from the distribution.
 The version can be checked with `firejail --version` after installing.
 
 You can also install one of the [released
-packages](https://github.com/netblue30/firejail/releases).
+packages](https://github.com/Unity-Billal-mesloub/firejail/releases).
 
 ## Building
 
@@ -224,7 +198,7 @@ Note: Any ./configure flags should be passed to [`mkdeb.sh`](mkdeb.sh)
 sudo apt-get update -qy
 sudo apt-get install -qy \
   git build-essential fakeroot lintian libapparmor-dev pkg-config gawk
-git clone 'https://github.com/netblue30/firejail.git' &&
+git clone 'https://github.com/Unity-Billal-mesloub/firejail.git' &&
 cd firejail &&
 ./configure &&
 make dist &&
@@ -243,7 +217,7 @@ Note: Any ./configure flags should be passed to [`mkrpm.sh`](platform/rpm/mkrpm.
 ```sh
 sudo dnf update -y
 sudo dnf install -y rpm-build gcc make
-git clone 'https://github.com/netblue30/firejail.git' &&
+git clone 'https://github.com/Unity-Billal-mesloub/firejail.git' &&
 cd firejail &&
 ./configure &&
 make dist &&
@@ -257,7 +231,7 @@ make installcheck
 Generic build/install instructions:
 
 ```sh
-git clone 'https://github.com/netblue30/firejail.git' &&
+git clone 'https://github.com/Unity-Billal-mesloub/firejail.git' &&
 cd firejail &&
 ./configure &&
 make -j "$(nproc)" &&
@@ -280,14 +254,14 @@ derivatives), install libselinux1-dev (libselinux-devel on Fedora) and use the
 `--enable-selinux` ./configure option.
 
 Detailed information on using firejail from git is available on the
-[wiki](https://github.com/netblue30/firejail/wiki/Using-firejail-from-git).
+[wiki](https://github.com/Unity-Billal-mesloub/firejail/wiki/Using-firejail-from-git).
 
 ## Running the sandbox
 
 Note: Make sure to use the full path to the program (for example, `firejail
 /usr/bin/firefox` instead of `firejail firefox`) to avoid potential
 firejail-in-firejail issues (see
-[#2877](https://github.com/netblue30/firejail/issues/2877)).
+[#2877](https://github.com/Unity-Billal-mesloub/firejail/issues)).
 
 To start the sandbox, prefix your command with `firejail`:
 
@@ -347,12 +321,12 @@ We also keep a list of profile fixes for previous released versions in
 If you keep additional Firejail security profiles in a public repository,
 please give us a link:
 
-* <https://github.com/chiraag-nataraj/firejail-profiles>
-* <https://github.com/triceratops1/fe>
+* <https://github.com/Unity-Billal-mesloub/firejail-profiles>
+* <https://github.com/Unity-Billal-mesloub/fe>
 
 Use this issue to request new profiles:
 
-* [Profile requests](https://github.com/netblue30/firejail/issues/1139)
+* [Profile requests](https://github.com/Unity-Billal-mesloub/firejail/issues)
 
 You can also use this tool to get a list of syscalls needed by a program:
 
@@ -372,9 +346,112 @@ See `man firecfg` for details.
 Note: Broken symlinks are ignored when searching for an executable in `$PATH`,
 so uninstalling without doing the above should not cause issues.
 
-## Latest released version: 0.9.80
+## Latest released version: 0.9.78
 
-## Current development version: 0.9.81
+This is an emergency release due to GTK library changes:
+
+```
+Applications that use glycin 2.0.0 or later via gdk-pixbuf2
+(examples: Firefox, Thunderbird, GIMP) crash.
+
+The library glycin provides a set of "safe" image format loaders
+to gdk-pixbuf2, another library which is widely used in GTK-based
+applications for loading images.
+
+As of gdk-pixbuf2 2.44.1, the calls to glycin loaders are wrapped in
+bubblewrap.
+```
+
+For details, see [#6906](https://github.com/Unity-Billal-mesloub/firejail/issues).
+
+## Current development version: 0.9.79
+
+### --profile=filename|appanme rework
+
+Issue https://github.com/Unity-Billal-mesloub/firejail/issues: requiring a full path or a relative
+path for the filename.
+
+```text
+      --profile=filename|appname
+              Load a custom security profile from filename, or use the name  of
+              a specific application.
+
+              If  the  command  line option --profile is not provided, Firejail
+              will attempt to extract the appname from the target program file‐
+              name. It will then  search  ~/.config/firejail  directory  for  a
+              suitable  profile,  followed  by a search in /etc/firejail/direc‐
+              tory.
+
+              Example:
+              $ firejail firefox
+              Reading profile /home/netblue/.config/firejail/firefox.profile
+              Reading profile /etc/firejail/firefox.profile
+              Reading profile /etc/firejail/firefox-common.profile
+              [...]
+
+              When using a filename, please include a full path or  a  relative
+              path.
+
+              $ firejail --profile=./firefox.profile firefox
+              Reading profile ./firefox.profile
+              Reading profile /etc/firejail/firefox.profile
+              Reading profile /etc/firejail/firefox-common.profile
+              [...]
+
+              --profile=appname comes in handy when running appimages:
+
+              $      firejail     --appimage     --profile=firefox     firefox-
+              nightly-148.0.r20260103-x86_64.AppImage
+              Reading profile /home/netblue/.config/firejail/firefox.profile
+              Reading profile /etc/firejail/firefox.profile
+              Reading profile /etc/firejail/firefox-common.profile
+              [...]
+
+              See man 5 firejail-profile for profile file  syntax  information.
+              For   profile  resolution   details  see  https://github.com/net‐
+              blue30/firejail/wiki/Creating-Profiles.
+```
+
+### --unhide-pid1
+```text
+      --unhide-pid1
+              Pid  1  is always present inside Firejail sandbox. By restricting
+              access to /proc kernel interface, general tools like ps  are  un‐
+              able to view and access  this process.  --unhide-pid1 option dis‐
+              ables this functionality. Example:
+
+              $ firejail --name=test    ### by default pid 1 is not visible
+              [...]
+              Child process initialized in 59.41 ms
+              $  ps a
+                  PID TTY      STAT   TIME COMMAND
+                    4 ?        S      0:00 /bin/bash
+                    5 ?        R+     0:00 ps a
+              $ exit
+              Parent is shutting down, bye…
+
+              $ firejail --name=test --unhide-pid1  ### pid 1 is visible
+              [...]
+              Child process initialized in 58.29 ms
+              $ ps a
+                 PID TTY      STAT   TIME COMMAND
+                    1 ?        S      0:00 firejail --name=test --unhide-pid1
+                    4 ?        S      0:00 /bin/bash
+                    6 ?        R+     0:00 ps a
+              $ exit
+              Parent is shutting down, bye…
+```
+
+### --keep-hostname
+```text
+       --keep-hostname
+              By default, the hostname is replaced by a random  name  generated
+              by firejail at startup. Use this option to disable this feature.
+
+              Example:
+              $ firejail --keep-hostname
+
+```
 
 ### Landlock support - ongoing/experimental
 
@@ -439,33 +516,32 @@ Warning: multiple caps in /etc/firejail/transmission-daemon.profile
 Warning: multiple caps in /etc/firejail/trivalent.profile
 
 Stats:
-    profiles			1342
-    include local profile	1341   (include profile-name.local)
-    include globals		1307   (include globals.local)
-    blacklist ~/.ssh		1201   (include disable-common.inc)
-    seccomp			1213
-    capabilities		1335
-    noexec			1214   (include disable-exec.inc)
-    noroot			1105
-    memory-deny-write-execute	320
-    restrict-namespaces		1048
-    apparmor			869
-    private-bin			817
-    private-dev			1172
-    private-etc			842
-    private-cache		865
+    profiles			1336
+    include local profile	1335   (include profile-name.local)
+    include globals		1301   (include globals.local)
+    blacklist ~/.ssh		1195   (include disable-common.inc)
+    seccomp			1207
+    capabilities		1329
+    noexec			1208   (include disable-exec.inc)
+    noroot			1099
+    memory-deny-write-execute	321
+    restrict-namespaces		1045
+    apparmor			860
+    private-bin			814
+    private-dev			1169
+    private-etc			837
+    private-cache		861
     private-lib			86
-    private-tmp			1036
-    whitelist home directory	662
-    whitelist var		975   (include whitelist-var-common.inc)
-    whitelist run/user		1305   (include whitelist-runuser-common.inc
+    private-tmp			1030
+    whitelist home directory	656
+    whitelist var		969   (include whitelist-var-common.inc)
+    whitelist run/user		1299   (include whitelist-runuser-common.inc
 					or blacklist ${RUNUSER})
-    whitelist usr/share		760   (include whitelist-usr-share-common.inc
+    whitelist usr/share		755   (include whitelist-usr-share-common.inc
     net none			452
-    dbus-user none 		766
-    dbus-user filter 		206
-    dbus-system none 		970
+    dbus-user none 		761
+    dbus-user filter 		202
+    dbus-system none 		964
     dbus-system filter 		13
-
 
 ```
